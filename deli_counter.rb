@@ -15,5 +15,5 @@ def take_a_number(array,name)
 end
 
 def now_serving(arr)
-  arr.empty??  "There is nobody waiting to be served!" : name = arr[0] && puts "Currently serving #{name}." && arr.shift
+  arr.empty??  "There is nobody waiting to be served!" : puts "Currently serving #{arr}.shift."
 end
