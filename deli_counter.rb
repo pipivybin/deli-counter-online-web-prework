@@ -4,6 +4,7 @@ def line(array)
   else
     arr = ["The line is currently:"]
     array.each_with_index {|name, x| arr << " #{x+1}. #{name}"}
+    binding.pry
     puts arr.join
   end
 end
